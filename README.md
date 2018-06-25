@@ -1,7 +1,7 @@
 # new-linux-install-programs
-A simple repo of shell scripts, and other resources to install all dev apps I like for a new Ubuntu install
+A simple repo of terminal commands, and other resources to install all dev apps I like to use for a new Ubuntu install
 
-One way to look at all your Aptitude based installs on an existing Linux drive
+One way to look at a list of all your Aptitude based installs on an existing Linux drive
 ```
 dpkg -l
 ```
@@ -83,6 +83,32 @@ sudo apt install filezilla
 MYSQL WORKBENCH
 https://dev.mysql.com/downloads/file/?id=474211
 
+MYSQL INSTALL
+```
+sudo apt-get update
+sudo apt-get install mysql-server
+```
+
+MYSQL UNINSTALL
+```
+sudo -i
+service mysql stop
+killall -KILL mysql mysqld_safe mysqld
+apt-get --yes purge mysql-server mysql-client
+apt-get --yes autoremove --purge
+apt-get autoclean
+deluser --remove-home mysql
+delgroup mysql
+rm -rf /etc/apparmor.d/abstractions/mysql /etc/apparmor.d/cache/usr.sbin.mysqld /etc/mysql /var/lib/mysql /var/log/mysql* /var/log/upstart/mysql.log* /var/run/mysqld
+updatedb
+exit
+```
+OR TRY
+```
+sudo apt-get remove --purge *mysql\*
+sudo apt-get autoremove
+sudo apt-get autoclean
+```
 
 
 
