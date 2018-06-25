@@ -88,6 +88,8 @@ MYSQL INSTALL
 sudo apt-get update
 sudo apt-get install mysql-server
 ```
+OR READ THIS
+https://support.rackspace.com/how-to/installing-mysql-server-on-ubuntu/
 
 MYSQL UNINSTALL
 ```
