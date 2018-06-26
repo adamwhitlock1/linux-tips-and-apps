@@ -41,7 +41,7 @@ GTK+ THEME: ADAPTA NOKTO
 ```
 sudo add-apt-repository ppa:tista/adapta
 sudo apt-get update
-sudo aptget install adapta-gtk-theme
+sudo apt-get install adapta-gtk-theme
 ```
 
 GTK+ THEME AND ICONS: PAPER
