@@ -8,8 +8,10 @@ dpkg -l
 
 ## Part 1 Helpful Links / Terminal Commands
 
-NODE JS
-https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
+CURL
+```
+sudo apt install curl
+```
 
 GIT
 ```
@@ -18,6 +20,9 @@ sudo apt install git-all
 
 GITHUB DESKTOP FOR LINUX
 https://github.com/shiftkey/desktop/releases
+
+NODE JS
+https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
 
 XAMPP INSTALL INSTRUCTION
 https://www.wikihow.com/Install-XAMPP-on-Linux
@@ -36,6 +41,12 @@ https://github.com/adamwhitlock1/GetAllGoogleFonts-Ubuntu
 
 HYPER TERMINAL
 https://hyper.is/#installation
+
+UBUNTU CLEANER
+```
+sudo add-apt-repository ppa:gerardpuig/ppa
+sudo apt-get update && sudo apt-get install ubuntu-cleaner
+```
 
 GTK+ THEME: ADAPTA NOKTO
 ```
@@ -110,6 +121,14 @@ OR TRY
 sudo apt-get remove --purge *mysql\*
 sudo apt-get autoremove
 sudo apt-get autoclean
+```
+SUDOCABULARY
+```
+curl https://raw.githubusercontent.com/badarsh2/Sudocabulary/master/script.sh | bash
+```
+LOLCAT
+```
+gem install lolcat
 ```
 
 
