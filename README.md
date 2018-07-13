@@ -133,7 +133,17 @@ gem install lolcat
 RAMBOX
 https://rambox.pro/#download
 
+## OTHER LINUX TIPS
 
+-Move and resize windows
+
+You can move and resize windows to help you work more efficiently. In addition to the dragging behavior you might expect, GNOME features shortcuts and modifiers to help you arrange windows quickly.
+
+Move a window by dragging the titlebar, or hold down Super and drag anywhere in the window. Hold down Shift while moving to snap the window to the edges of the screen and other windows.
+
+Resize a window by dragging the edges or corner of the window. Hold down Shift while resizing to snap the window to the edges of the screen and other windows.
+
+Move or resize a window using only the keyboard. Press Alt+F7 to move a window or Alt+F8 to resize. Use the arrow keys to move or resize, then press Enter to finish, or press Esc to return to the original position and size.
 
 
 
