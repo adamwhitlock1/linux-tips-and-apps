@@ -94,6 +94,9 @@ sudo apt install filezilla
 MYSQL WORKBENCH
 https://dev.mysql.com/downloads/file/?id=474211
 
+PHP INSTALL
+https://thishosting.rocks/install-php-on-ubuntu/
+
 MYSQL INSTALL
 ```
 sudo apt-get update
